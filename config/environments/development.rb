@@ -27,4 +27,8 @@ University::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  
+  # Slim
+  Slim::Engine.set_default_options :pretty => true
+  
 end
