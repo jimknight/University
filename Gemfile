@@ -34,6 +34,6 @@ group :test do
 end
 
 group :production do
- # gem 'therubyracer-heroku', '0.8.1.pre3' # heroku
+  gem 'therubyracer-heroku', '0.8.1.pre3' # heroku
   gem 'pg'
 end
