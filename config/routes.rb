@@ -1,4 +1,6 @@
 University::Application.routes.draw do
+  resources :notes
+
   resources :courses
 
   # The priority is based upon order of creation:
