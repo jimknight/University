@@ -6,7 +6,7 @@ gem 'rails', '3.1.0'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'inherited_resources'
-gem 'sqlite3'
+gem 'sqlite3', :group => :development
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -33,6 +33,6 @@ group :test do
 end
 
 group :production do
-  gem 'therubyracer-heroku', '0.8.1.pre3' # heroku
+ # gem 'therubyracer-heroku', '0.8.1.pre3' # heroku
   gem 'pg'
 end
