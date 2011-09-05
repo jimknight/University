@@ -6,6 +6,7 @@ gem 'rails', '3.1.0'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'inherited_resources'
+gem 'simple_form'
 gem 'slim'
 gem 'sqlite3', :group => :development
 
